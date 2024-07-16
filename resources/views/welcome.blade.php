@@ -94,7 +94,7 @@
             bottom: 0; /*Stick to the bottom */
             width: 100%; /* Full width */
         }
-        sdsd
+    
     </style>
 </head>
 <body class="antialiased bg-gray-100">
