@@ -94,7 +94,6 @@
             bottom: 0; /*Stick to the bottom */
             width: 100%; /* Full width */
         }
-    
     </style>
 </head>
 <body class="antialiased bg-gray-100">
@@ -153,6 +152,16 @@
                                         </div>
                                         <div class="flip-card-back">
                                             <img src="{{ asset('Orders2.png') }}" alt="Orders Icon">
+                                        </div>
+                                    </div>
+                                </a>
+                                <a href="{{ url('/products') }}" class="flip-card">
+                                    <div class="flip-card-inner">
+                                        <div class="flip-card-front">
+                                            <img src="{{ asset('Products.png') }}" alt="Products Icon">
+                                        </div>
+                                        <div class="flip-card-back">
+                                            <img src="{{ asset('Products2.png') }}" alt="Products Icon">
                                         </div>
                                     </div>
                                 </a>
